@@ -7,15 +7,15 @@
                 </tr>
             </thead>
             <tbody>
-                <tr *ngFor="let link of horrorMovies">
+                <tr *ngFor="let link of colorPalletLinks">
                     <td><a [href]="link.link">{{link.link}}</a></td>
                 </tr>
             </tbody>
         </table>
-        <div class="link-input">
+        <!-- <div class="link-input">
             <label for="link">Link:</label>
             <input type="text" [(ngModel)]="linkInput" placeholder="Enter a link">
             <button (click)="addLink()">Add Link</button>
-        </div>
+        </div> -->
     </div>
 </div>
